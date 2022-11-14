@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome to product Review management problem");
+            Console.WriteLine("welcome to Product Review management problem");
             List<ProductReview> Productreviewlist = new List<ProductReview>();
             Productreviewlist.Add(new ProductReview() { ProductID = 1, UserID = 1, Rating = 5, Review = "good", ISLike = true });
             Productreviewlist.Add(new ProductReview() { ProductID = 2, UserID = 6, Rating = 6, Review = "good", ISLike = true });
