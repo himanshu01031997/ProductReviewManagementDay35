@@ -16,11 +16,12 @@
             Productreviewlist.Add(new ProductReview() { ProductID = 8, UserID = 4, Rating = 4, Review = "good", ISLike = true });
 
 
-            foreach (var list in Productreviewlist)
-            {
-                Console.WriteLine("productid : " + list.ProductID + " userid: " + list.UserID + " rating: " + list.Rating + " review: " + list.Review + " islike: " + list.ISLike);
-            }
-           
+            //foreach (var list in Productreviewlist)
+            //{
+            //    Console.WriteLine("productid : " + list.ProductID + " userid: " + list.UserID + " rating: " + list.Rating + " review: " + list.Review + " islike: " + list.ISLike);
+            //}
+            Management manage = new Management();
+            manage.TopRecords(Productreviewlist);
         }
     }
 }
